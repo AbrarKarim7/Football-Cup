@@ -59,21 +59,45 @@ h3{
 .flex{
     display: flex;
 }
+
 .flex img{
-    width:450px;
+    width:400px;
     height: 350px;
+    transition: transform 0.5s ease-out;
+    
+}
+.flex img:hover{
+    transform: scale(1.2);
 }
 .flex2{
-    background-color: blue;
+    background-image: linear-gradient(darkblue, rgb(11, 52, 238));
     margin-bottom: 4px;
+    padding-left: 20px;
+    padding-right: 10px;
+    
+}
+
+.flex2 h2{
+    color:rgb(255, 255, 255);
+}
+.flex2 p{
+    color: wheat;
+    
+}
+.padding{
+    padding-left: 30px;
 }
 .fa-circle-chevron-right{
     padding-left: 20px;
     padding-top: 40px;
 }
+.fafa{
+    padding-left: 200px;
+    padding-top: 200px;
+}
 .fa-brands{
     padding-right: 20px;
-    color:aqua;
+    color:rgb(4, 190, 190);
 }
 
 .icon{
