@@ -49,8 +49,20 @@ a{
     height: 282px;
 }
 p{
-    color: gray;
+    color: rgb(87, 86, 86);
+}
+.fa-brands{
+    padding-right: 20px;
+}
+.icon{
+    padding-top: 30px;
+    padding-bottom: 10px;
 }
 footer{
     text-align: center;
+}
+footer img{
+    width:200px;
+    height:200px;
+    margin-top: 40px;
 }
