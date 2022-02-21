@@ -1,10 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
 
-@media only screen and (max-width:688px){
-    .Top-Players{
-        background-color: red;grid-template-columns: repeat(1,1fr);
-    }
-}
+
 header{
     display: flex;
     background-color: rgb(49, 30, 173);
@@ -67,8 +63,7 @@ h3{
     display: flex;
 }
 .flex{
-    display: flex;
-    
+    display: flex; 
 }
 
 .flex img{
@@ -111,7 +106,7 @@ h3{
     color:rgb(4, 190, 190);
 }
 
-.icon{
+#icon{
     padding-top: 30px;
     padding-bottom: 10px;
 }
@@ -123,4 +118,49 @@ footer img{
     width:400px;
     height:200px;
     margin-top: 100px;
+}
+@media only screen and (max-width:480px){
+    .Top-Players{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .column{
+        display: flex;
+        flex-direction: column;
+    }
+    .padding{
+        padding-left: 0px;
+    }
+    header{
+        display: flex;
+        flex-direction: column;
+        width: 500px;
+        margin-left: 20px;
+        padding-left: 40px;
+    }
+    .head img{
+        margin-left: 0;
+    }
+    footer{
+        margin-left: 70px;
+    }
+    
+}
+@media only screen and (min-width:481px) and (max-width:768){
+    .Top-Players{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .column{
+        display: flex;
+        flex-direction: column;
+    }
+    .padding{
+        padding-left: 0px;
+    }
+    header{
+        display: flex;
+        flex-direction: column;
+    }
+    .head img{
+        margin-left: 0;
+    }
 }
