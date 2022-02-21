@@ -1,17 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
 
+@media only screen and (max-width:688px){
+    .Top-Players{
+        background-color: red;grid-template-columns: repeat(1,1fr);
+    }
+}
 header{
     display: flex;
-    background-color: slateblue;
+    background-color: rgb(49, 30, 173);
     justify-content: center;
     font-family: 'Poppins', sans-serif;
     color:  #FFFFFF;
     margin-bottom: 40px;
 }
 header img{
+    margin-top: 20px;
     margin-left: 200px;
-    width: 556px;
-    height: 338px;
+    width: 500px;
+    height: 350px;
 }
 h1{
     width: 60%;
@@ -31,12 +37,15 @@ a{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 0%;
+    margin-left: 60px;
+    margin-right: 60px;
 }
 
 .Players{
     border: 10px solid whitesmoke;
    
     text-align: justify;
+   
 
 }
 .paragraph{
@@ -54,17 +63,19 @@ h3{
     color: rgb(10, 10, 71);
 }
 .layout{
+    margin-top: 120px;
     display: flex;
 }
 .flex{
     display: flex;
+    
 }
 
 .flex img{
     width:400px;
     height: 350px;
     transition: transform 0.5s ease-out;
-    
+      
 }
 .flex img:hover{
     transform: scale(1.2);
@@ -106,6 +117,7 @@ h3{
 }
 footer{
     text-align: center;
+    margin-top: 80px;
 }
 footer img{
     width:400px;
