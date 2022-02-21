@@ -64,16 +64,17 @@ h3{
 }
 .flex{
     display: flex; 
+   overflow: hidden;
 }
 
 .flex img{
     width:400px;
     height: 350px;
-    transition: transform 0.5s ease-out;
-      
+   
 }
 .flex img:hover{
     transform: scale(1.2);
+    transition: transform 0.5s ease-in;
 }
 .flex2{
     background-image: linear-gradient(darkblue, rgb(11, 52, 238));
@@ -100,6 +101,10 @@ h3{
 .fafa{
     padding-left: 200px;
     padding-top: 200px;
+}
+.fafa2{
+    padding-top: 200px;
+    padding-left: 170px;
 }
 .fa-brands{
     padding-right: 20px;
@@ -137,7 +142,7 @@ footer img{
     .flex{
         display: flex;
         flex-direction: column;
-        width: 119%;
+        width: 114%;
     }
     #mid{
         margin-left: 20px;
@@ -153,28 +158,11 @@ footer img{
         padding-left: 320px;
         padding-bottom: 20px;
     }
-    
+    .fafa2{
+        padding-left: 325px;
+        padding-bottom: 20px;
+    }
     footer{
         margin-left: 70px;
-    }
-
-    
-}
-@media only screen and (min-width:481px) and (max-width:768){
-    .Top-Players{
-        grid-template-columns: repeat(2, 1fr);
-    }
-    .column{
-        display: flex;
-        flex-direction: column;
-    }
-    
-    header{
-        display: flex;
-        flex-direction: column;
-
-        margin-left: 20px;
-        padding-left: 40px;
-    }
-   
+    }   
 }
