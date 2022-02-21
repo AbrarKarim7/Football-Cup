@@ -119,48 +119,62 @@ footer img{
     height:200px;
     margin-top: 100px;
 }
+
 @media only screen and (max-width:480px){
-    .Top-Players{
-        grid-template-columns: repeat(1,1fr);
-    }
-    .column{
-        display: flex;
-        flex-direction: column;
-    }
-    .padding{
-        padding-left: 0px;
-    }
     header{
         display: flex;
         flex-direction: column;
-        width: 500px;
+        width: 480px;
         margin-left: 20px;
         padding-left: 40px;
     }
     .head img{
         margin-left: 0;
     }
+    .Top-Players{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .flex{
+        display: flex;
+        flex-direction: column;
+        width: 119%;
+    }
+    #mid{
+        margin-left: 20px;
+    }
+    .padding{
+        padding-left: 0px;
+    }
+
+    .fa-circle-chevron-right{
+        padding-top: 75px;
+    }
+    .fafa{
+        padding-left: 320px;
+        padding-bottom: 20px;
+    }
+    
     footer{
         margin-left: 70px;
     }
+
     
 }
 @media only screen and (min-width:481px) and (max-width:768){
     .Top-Players{
-        grid-template-columns: repeat(2,1fr);
+        grid-template-columns: repeat(2, 1fr);
     }
     .column{
         display: flex;
         flex-direction: column;
     }
-    .padding{
-        padding-left: 0px;
-    }
+    
     header{
         display: flex;
         flex-direction: column;
+
+        margin-left: 20px;
+        padding-left: 40px;
     }
-    .head img{
-        margin-left: 0;
-    }
+   
 }
